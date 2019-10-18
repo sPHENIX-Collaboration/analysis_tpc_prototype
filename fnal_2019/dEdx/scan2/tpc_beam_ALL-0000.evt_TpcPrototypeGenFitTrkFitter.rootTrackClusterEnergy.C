@@ -1,7 +1,7 @@
 void tpc_beam_ALL-0000.evt_TpcPrototypeGenFitTrkFitter.rootTrackClusterEnergy()
 {
 //=========Macro generated from canvas: TrackClusterEnergy/TrackClusterEnergy
-//=========  (Fri Oct 18 01:15:49 2019) by ROOT version 6.16/00
+//=========  (Fri Oct 18 15:52:12 2019) by ROOT version 6.16/00
    TCanvas *TrackClusterEnergy = new TCanvas("TrackClusterEnergy", "TrackClusterEnergy",0,0,1200,860);
    gStyle->SetOptStat(0);
    gStyle->SetOptTitle(0);
@@ -544,7 +544,7 @@ void tpc_beam_ALL-0000.evt_TpcPrototypeGenFitTrkFitter.rootTrackClusterEnergy()
    entry->SetMarkerStyle(21);
    entry->SetMarkerSize(1);
    entry->SetTextFont(42);
-   entry=leg->AddEntry("hClusterEnergy","Data: Position scan 2, #eta = 0, 2+ pad clusters","l");
+   entry=leg->AddEntry("hClusterEnergy","Data: Scan 2, 120 GeV/c proton, #eta = 0, 2+ pad clusters","l");
    entry->SetLineColor(1);
    entry->SetLineStyle(1);
    entry->SetLineWidth(2);

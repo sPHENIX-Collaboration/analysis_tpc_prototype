@@ -1,7 +1,7 @@
 void tpc_beam_ALL-0000.evt_TpcPrototypeGenFitTrkFitter.rootTrackQA()
 {
 //=========Macro generated from canvas: TrackQA/TrackQA
-//=========  (Fri Oct 18 01:15:47 2019) by ROOT version 6.16/00
+//=========  (Fri Oct 18 15:52:10 2019) by ROOT version 6.16/00
    TCanvas *TrackQA = new TCanvas("TrackQA", "TrackQA",0,0,1400,860);
    gStyle->SetOptStat(0);
    gStyle->SetOptTitle(0);

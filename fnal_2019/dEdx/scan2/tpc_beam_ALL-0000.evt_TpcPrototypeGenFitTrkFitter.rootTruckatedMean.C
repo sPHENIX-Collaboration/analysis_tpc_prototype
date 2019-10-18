@@ -1,7 +1,7 @@
 void tpc_beam_ALL-0000.evt_TpcPrototypeGenFitTrkFitter.rootTruckatedMean()
 {
 //=========Macro generated from canvas: TruckatedMean/TruckatedMean
-//=========  (Fri Oct 18 01:52:30 2019) by ROOT version 6.16/00
+//=========  (Fri Oct 18 16:28:50 2019) by ROOT version 6.16/00
    TCanvas *TruckatedMean = new TCanvas("TruckatedMean", "TruckatedMean",0,0,1200,860);
    gStyle->SetOptStat(0);
    gStyle->SetOptTitle(0);
@@ -679,7 +679,7 @@ void tpc_beam_ALL-0000.evt_TpcPrototypeGenFitTrkFitter.rootTruckatedMean()
    leg->SetLineWidth(1);
    leg->SetFillColor(0);
    leg->SetFillStyle(1001);
-   TLegendEntry *entry=leg->AddEntry("NULL","Position scan 2, #eta = 0, 2+ pad clusters","h");
+   TLegendEntry *entry=leg->AddEntry("NULL","Scan 2, 120 GeV/c proton, #eta = 0, 2+ pad clusters","h");
    entry->SetLineColor(1);
    entry->SetLineStyle(1);
    entry->SetLineWidth(1);
