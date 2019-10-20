@@ -1,7 +1,7 @@
 void tpc_beam_ALL-0000.evt_TpcPrototypeGenFitTrkFitter.rootTruckatedMean()
 {
 //=========Macro generated from canvas: TruckatedMean/TruckatedMean
-//=========  (Sat Oct 19 01:07:44 2019) by ROOT version 6.16/00
+//=========  (Sun Oct 20 11:32:01 2019) by ROOT version 6.16/00
    TCanvas *TruckatedMean = new TCanvas("TruckatedMean", "TruckatedMean",0,0,1200,860);
    gStyle->SetOptStat(0);
    gStyle->SetOptTitle(0);
